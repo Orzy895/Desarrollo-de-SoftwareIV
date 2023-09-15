@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <header>
         <center>
-        <h1>Curriculum Vitae</h1>
-        <a href="">Doris Mora</a> <a href="">Miguel Acosta</a> <br>
-        <a href="">Enrique Wen</a> <a href="">Crear CV</a>
+            <h1>Curriculum Vitae</h1>
+            <a href="">Doris Mora</a> <a href="">Miguel Acosta</a> <br>
+            <a href="">Enrique Wen</a> <a href="">Crear CV</a>
         </center>
     </header>
     <hr>
@@ -25,9 +27,11 @@
                 <label for="correo">Correo Electronico: </label>
                 <input type="email" name="correo" id="correo"><br>
                 <label for="edad">Edad: </label>
-                <input type="number" name="edad" id="edad"><br>
+                <input type="number" name="edad" id="edad" min="0"><br>
                 <label for="direccion">Dirección</label>
                 <input type="text" name="direccion" id="direccion">
+                <label for="imagen">Foto</label>
+                <input type="file" name="imagem" id="imagen" accept="image/*">
             </fieldset>
             <br>
             <fieldset>
@@ -73,14 +77,20 @@
             <br>
             <fieldset>
                 <legend>Experiencia</legend>
+                <label for="Exp_lab">Experiencia laboral:</label><br>
+                <textarea name="exp1" id="exp1" rows="30" cols="50"
+                    placeholder="Ingrese de la siguiente manera: -Compañia/puesto/(año de inicio) - (año de Termino)"></textarea><br>
             </fieldset>
             <br>
             <fieldset>
                 <legend>Proyectos Realizados</legend>
+                <label for="Exp_lab">Proyectos:</label><br>
+                <textarea name="exp1" id="exp1" rows="30" cols="50" placeholder="Ingrese de la siguiente manera: -Nombre del proyecto/año/breve descripción"></textarea><br>
             </fieldset>
             <br>
             <input type="submit" value="Enviar">
         </form>
     </div>
 </body>
+
 </html>
