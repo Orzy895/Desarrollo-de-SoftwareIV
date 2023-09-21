@@ -1,3 +1,74 @@
-h1{
-    color: red;
+body {
+    font-family: Calibri, Times New Roman, Garamond;
+    margin: 0;
+    margin-bottom: 0;
+}
+
+aside{
+    background-color: #eeeeee;
+    float: left;
+    height: 110%;
+    margin-top: 0;
+    padding-right: 25px;
+    margin-right: 25px;
+    text-align: center;
+    padding-left: 15px;
+}
+
+aside header h1 {
+    padding-top: 15px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+aside header p {
+    padding-bottom: 15px;
+}
+
+aside header a {
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+
+aside header img {
+    border-radius: 100%;
+}
+
+#titulo {
+    text-decoration: underline;
+    padding-top: 15px;
+}
+
+h3 {
+    margin-top: 0;
+}
+
+#frame {
+    margin-left: 10px;
+    border-color: white;
+    border-image: none;
+    border-radius: 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 10px;
+    width: 150px;
+}
+#frame img{
+    height: 100%;
+    width: 100%;
+}
+aside header{
+padding-bottom: 5px;
+}
+#conocimientos ul li{
+    padding-bottom: 5px;
+}
+section h3{
+    text-align: center;
+}
+#experiencia{
+    padding-top: 15px;
+}
+a{
+    text-decoration: none;
+    color: black;
 }
