@@ -1,0 +1,102 @@
+header{   
+    background-color: #F1A661; 
+  color: #e2e2e2; 
+  font-family: 'Josefine'
+}  
+
+ nav{  
+    background-color: #FFD8A9;  
+    font-family: 'Josefine'
+ }  
+
+ #Nombre{ 
+    font-family:'Josefine';
+    font-size:120%;
+} 
+
+ body{ 
+    background-color: #FDEEDC;      
+
+}    
+#img{ 
+align-items: center;
+} 
+
+#Datos h2{  
+    width: 70%;
+    background-color: #F1A661;
+    font-family:'Josefine'; 
+
+}
+
+#Datos{  
+    background-color: #FFD8A9; 
+    width: 30%;
+}
+ 
+#Estudios h2{ 
+    width: 70%;
+    background-color: #F1A661;
+    font-family:'Josefine';
+} 
+
+#Estudios{ 
+    background-color: #FFD8A9; 
+    width: 40%;
+} 
+
+#Conocimientos h2{ 
+    width: 70%;
+    background-color: #F1A661;
+    font-family:'Josefine';
+} 
+
+#Conocimientos{ 
+    background-color: #FFD8A9; 
+    width: 20%; 
+    height: 30%;
+}  
+
+#Idioma h2{ 
+    width: 70%;
+    background-color: #F1A661;
+    font-family:'Josefine';
+} 
+
+#Idioma{ 
+    background-color: #FFD8A9; 
+    width: 20%; 
+    height: 30%;
+} 
+ 
+#Experiencia h2{ 
+    width: 70%;
+    background-color: #F1A661;
+    font-family:'Josefine';
+} 
+
+#Experiencia{ 
+    background-color: #FFD8A9; 
+    width: 20%; 
+    height: 30%;
+} 
+
+#Proyecto h2{ 
+    width: 70%;
+    background-color: #F1A661;
+    font-family:'Josefine';
+} 
+
+#Proyecto{ 
+    background-color: #FFD8A9; 
+    width: 20%; 
+    height: 30%;
+} 
+
+
+@font-face {
+    font-family:'Josefine';
+    src: url(JosefinSans-SemiBoldItalic.ttf) format('truetype'); 
+    font-style: normal;
+    font-weight: normal; 
+ } 
