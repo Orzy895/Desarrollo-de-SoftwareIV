@@ -1,7 +1,94 @@
-header{
-    display: flex;;
+*{
+    font-family: Arial, Helvetica, sans-serif;
 }
-img{
+
+body{
+    margin: 0;
+}
+nav{
+    display: flex;
+    height: 90px;
+    background: whitesmoke;
+    justify-content: space-between;
+}
+
+.nav-item{
+    width: 400px;
+    height: 75px;
+    margin: 5px;
+}
+
+.logo{
+    font-weight: bold;
+    margin-left: 20px;
+    margin-top: 25px;
+}
+
+.nav-right-item-ul{
+    text-decoration: none;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-right-item-ul li{
+    margin-left: 25px;
+    margin-top: 12px;
+}
+
+.nav-right-item-ul li a{
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    background: white;
+    border-radius: 15%;
+    padding: 10px;
+}
+
+.seccion1{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.seccion1 div{
+    width: 150px;
+    height: 200px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.seccion1 img{
+    height: 150px;
+    width: 150px;
+}
+
+.seccion2{
+    position: relative;
+}
+
+.seccion2-gatito{
+    width: 100%;
+    height: auto;
+    opacity: 50%;
+}
+
+.texto-sobre-gatito{
+    position: absolute;
+    top: 50%;
+    left: 42%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+footer{
+    display: flex;
+    background-color: whitesmoke;
+    justify-content: space-between;
+}
+
+footer img{
     height: 150px;
     width: 150px;
 }
