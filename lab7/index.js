@@ -8,7 +8,7 @@ document.getElementById('segundoProblemaBoton').onclick = ()=>{
 }
 //1.3
 document.getElementById('tercerProblemaBoton').onclick = ()=>{
-    document.getElementById('tercerProblema').innerHTML += document.getElementById('tercerProblemTexto').value
+    document.getElementById('tercerProblema').innerHTML += document.getElementById('tercerProblemaTexto').value
 }
 //1.4
 document.getElementById('cuartoProblemaBoton').onclick= ()=>{
@@ -24,5 +24,39 @@ document.getElementById('sextoProblemaBoton').onclick=()=>{
 }
 //1.7
 document.getElementById('septimoProblemaBoton').onclick=()=>{
-    alert(navigator.userAgent)
+    console.log(navigator.userAgent)
+}
+//1.8
+document.getElementById('octavoProblemaBoton').onclick=()=>{
+    let check = document.getElementById('octavoProblemaCheck')
+    if(check.checked){
+        alert("El checkbox esta activo")
+    }
+    else{
+        alert("El checkbox no esta activo")
+    }
+}
+//1.9
+document.getElementById('novenoProblemaBoton').onclick=()=>{
+    let check = document.getElementById('novenoProblemaRadio')
+    if(check.checked){
+        alert("El radio esta activo")
+    }
+    else{
+        alert("El radio no esta activo")
+    }
+}
+//1.10
+
+
+//FETCH
+function obtenerDatos(){
+    fetch('https://api.thecatapi.com/v1/images/search?limit=5').then(
+        res=>{
+            res.json().then(json=>{
+                gatos = json.results
+                console.log(gatos)
+            })
+        }
+    )
 }
