@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-image: url(/tarea4/imagenes/fondo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.contenedor{
+    background-color: whitesmoke;
+}
