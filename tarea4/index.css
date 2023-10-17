@@ -67,6 +67,10 @@ body{
     height: auto;
 }
 
+.imagen-llave:hover{
+    cursor: pointer;
+}
+
 .seleccionar{
     position: relative;
     width: 100%;
@@ -74,6 +78,38 @@ body{
     padding-top: 0;
 }
 
+.enviar-div{
+    text-align: center;
+}
+
 #ingresar{
-    
+    width: 60%;
+    background-color: #0ca6ff;
+    font-size: large;
+    font-weight: bold;
+    border: 0;
+    height: 50px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px rgb(105, 105, 105);
+}
+
+#ingresar:hover{
+    cursor: pointer;
+}
+
+.oculto{
+    display: none;
+}
+
+.grua, .video{
+    width: 100%;
+    text-align: center;
+}
+
+.grua img{
+    width: 750px;
+}
+
+.video video{
+    width: 750px;
 }

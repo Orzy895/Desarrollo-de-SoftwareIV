@@ -12,20 +12,37 @@
         <div class="formulario">
             <div class="caja">
                 <img src="/tarea4/imagenes/coche (1).png" alt="" class="imagen-form">
-                <input type="email" placeholder="Correo Electronico">
+                <input type="email" placeholder="Correo Electronico" required>
             </div>
             <div class="caja">
                 <img src="/tarea4/imagenes/llave (1).png" alt="" class="imagen-form">
-                <input type="password" placeholder="Contraseña">
-                <img src="/tarea4/imagenes/cerrar-ojo.png" alt="" class="imagen-llave">
+                <input type="password" placeholder="Contraseña" id="pass" required>
+                <img src="/tarea4/imagenes/cerrar-ojo.png" alt="" class="imagen-llave ojo" onclick="mostrarPassword()">
             </div>
             <div class="seleccionar">
-                <input type="checkbox">
+                <input type="checkbox" id="funciona">
                 <label for="">Hacer que funcione</label>
             </div>
-            <input type="submit" value="Ingresar" id="ingresar">
+            <div class="enviar-div">
+                <input type="submit" value="Ingresar" id="ingresar" onclick="enviar()">
+            </div>
         </div>
     </div>
+    <div class="contenedor loader oculto">
+        <img src="/tarea4/imagenes/b7C-unscreen.gif" alt="">
+    </div>
+
+    <div class="grua oculto">
+        <img src="/tarea4/imagenes/grua.png" alt="">
+    </div>
+
+    <div class="video oculto">
+        <video src="/tarea4/imagenes/drive.mp4" autoplay muted controls></video>
+    </div>
+
+    <audio src="/tarea4/imagenes/fallo.mp3" id="fail"></audio>
+    <audio src="/tarea4/imagenes/start.mp3" id="start"></audio>
+
     <script src="index.js"></script>
 </body>
 </html>
